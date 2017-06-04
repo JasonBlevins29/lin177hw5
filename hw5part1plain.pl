@@ -1,3 +1,7 @@
+% Adding case to the noun phrases, and enforcing nominative case for subject and objective case for objects. This should rule out Her arrived.
+% Adding person and number information to verbs and nominals, and enforcing subject-verb agreement. This should rule out She see the dog.
+% Adding subcategorization information to verbs. This should rule out She arrived them.
+
 % sentence
 s --> np, vp.
 
@@ -21,5 +25,3 @@ pro --> [them].
 v --> [arrived].
 v --> [see].
 v --> [sees].
-
-
